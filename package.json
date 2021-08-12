@@ -1,0 +1,11 @@
+{
+  "name": "auto-totem-mineflayer",
+  "version": "1.0.0",
+  "description": "Allows a bot to automatically equip Totemsr",
+  "main": "index.js",
+  "author": "LabGuy94",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "^3.9.0"
+  }
+}
