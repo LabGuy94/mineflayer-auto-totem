@@ -19,4 +19,4 @@ const bot = mineflayer.createBot({
 bot.loadPlugin(autototem)
 
 ```
-![usagegif](https://cdn.discordapp.com/attachments/865897316043718676/875177399157923870/animated.gif)
+![usagegif](https://cdn.discordapp.com/attachments/865897316043718676/875180370612592670/ezgif.com-gif-maker2.gif)
