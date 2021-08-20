@@ -16,7 +16,9 @@ const bot = mineflayer.createBot({
   host: 'localhost', // minecraft server ip
   username: 'bot1', // minecraft username
 })
-bot.loadPlugin(autototem)
+bot.on("physicsTick", async () => {
+    bot.autototem.totem()
+})
 
 ```
 ![usagegif](https://cdn.discordapp.com/attachments/865897316043718676/875180370612592670/ezgif.com-gif-maker2.gif)
