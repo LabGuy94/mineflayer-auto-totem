@@ -1,4 +1,4 @@
-module.exports = function inject(bot) {
+function inject(bot) {
     bot.autototem = {}
     bot.autototem.equip = () => {
         if (bot.inventory.slots[45] != null) return
@@ -8,4 +8,8 @@ module.exports = function inject(bot) {
             bot.equip(totem, 'off-hand')
         }
     }
+}
+
+module.exports = {
+    autototem: inject
 }
